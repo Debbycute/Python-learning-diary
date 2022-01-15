@@ -15,7 +15,7 @@ print(name.lower()) #字符串全部变为小写
 **2、合并字符串：**  
 ```python
 first_name = "Debby"
-last_name = "Chen"。
+last_name = "Chen"
 full_name = first_name+" "+last_name #若双引号中含有字符，则输出结果合并同时中间加字符。
 print(full_name)
 ```
