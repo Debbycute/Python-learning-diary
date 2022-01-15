@@ -5,7 +5,7 @@
 ## 学习笔记
 以时间轴的形式记录。
 ### 2022.1.15
-大小写转换：  
+**大小写转换：**  
 > name = "ada lovelace"  
 > print(name.title()) #字符串首字母大写  
 > print(name.upper()) #字符串全部变为大写  
