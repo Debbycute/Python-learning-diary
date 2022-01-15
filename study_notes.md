@@ -5,8 +5,24 @@
 ## 学习笔记
 以时间轴的形式记录。
 ### 2022.1.15
-**大小写转换：**  
-> name = "ada lovelace"  
-> print(name.title()) #字符串首字母大写  
-> print(name.upper()) #字符串全部变为大写  
-> print(name.lower()) #字符串全部变为小写  
+**1、大小写转换：**  
+```python
+name = "ada lovelace"  
+print(name.title()) #字符串首字母大写  
+print(name.upper()) #字符串全部变为大写  
+print(name.lower()) #字符串全部变为小写
+```
+**2、合并字符串：**  
+```python
+first_name = "Debby"
+last_name = "Chen"。
+full_name = first_name+" "+last_name #若双引号中含有字符，则输出结果合并同时中间加字符。
+print(full_name)
+```
+>输出结果：Debby Chen  
+
+补充：
+```python
+print("Hello,"+full_name.title()+"!")
+```
+>输出结果：Hello,Debby Chen!
