@@ -26,3 +26,9 @@ print(full_name)
 print("Hello,"+full_name.title()+"!")
 ```
 >输出结果：Hello,Debby Chen!
+
+### 2022.1.19
+**1、添加空白**  
+制表符：\t  
+换行符：\n  
+换行并制表：\n\t
